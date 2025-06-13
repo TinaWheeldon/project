@@ -85,6 +85,45 @@ button {
     border: none;
 }
 
-.btn__menu {
-    
+
+
+.menu__backdrop {
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease;
+    visibility: hidden;
+}
+
+.menu--open .menu__backdrop {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menu--open {
+    max-height: 100vh;
+    overflow-y: hidden;
+}
+
+.modal__links {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.modal__link {
+    font-size: 24px;
+    columns: white;
+}
+
+.btn__menu--close {
+    position: absolute;
+    color: white;
 }
