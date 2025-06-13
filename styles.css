@@ -38,8 +38,53 @@
     height: 40px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .nav__links {
     display: flex;
+    align-items: center;
     list-style-type: none;
 }
 
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 4px;
+    letter-spacing: 0.35px;
+}
+
+.nav__link {
+    margin: 0 24px;
+}
+
+.login {
+    margin-left: 48px;
+}
+
+.nav__link--primary {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 10000px;
+    background-color: #6415ff;
+    color: #fff;
+}
+
+.nav__link--primary:hover {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.btn__menu {
+    
+}
