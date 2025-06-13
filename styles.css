@@ -38,9 +38,8 @@
     height: 40px;
 }
 
-.nav__link {
+.nav__links {
     display: flex;
-    justify-content: space-between;
-    text-decoration: none;
+    list-style-type: none;
 }
 
