@@ -150,38 +150,45 @@ align-items: center;
 
 .header__description {
     display: flex;
-    flex-direction: column;
 }
 
 .header__description--p {
     padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 20px;
 }
 
 .purple {
     color: #6415ff;
 }
 
+.email__header {
+    position: relative;
+}
+
 .email__header--input {
-    width: 50%;
-    border-radius: 10000px;
-    padding: 14px 22px 14px 24px;
+    padding: 20px 192px 20px 32px;
+    border-radius: 500px;
+    position: absolute;
     background-color: transparent;
 }
 
 .email__header--btn {
-    border-radius: 10000px;
+    border-radius: 500px;
     background-color: #6415ff;
     color: white;
+    padding: 12px 20px;
+    margin: 8px;
     font-weight: 700;
-    padding: 12px 20px 12px 20px;
+    font-size: 16px;
     position: absolute;
-    
+    right: 65%;
 }
 
 .customer__header--title {
-    padding-top: 5%;
+    padding-top: 100px;
     padding-bottom: 20px;
+    font-weight: 900;
 }
 
 .customer__header {
