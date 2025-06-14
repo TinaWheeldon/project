@@ -85,9 +85,9 @@ button {
     border: none;
 }
 
+/* MODAL */
 
-
-.menu__backdrop {
+.modal {
     position: absolute;
     background-color: white;
     top: 0;
@@ -102,7 +102,7 @@ button {
     visibility: hidden;
 }
 
-.menu--open .menu__backdrop {
+.menu--open .modal {
     visibility: visible;
     opacity: 1;
 }
@@ -119,11 +119,24 @@ align-items: center;
 }
 
 .modal__link {
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: 600;
     columns: white;
 }
 
 .btn__menu--close {
+    position: relative;
     position: absolute;
+    top: 0;
+    right: 0;
     color: white;
+}
+
+.modal__link--primary {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 10000px;
+    background-color: #6415ff;
+    color: #fff;
 }
