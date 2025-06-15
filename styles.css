@@ -146,7 +146,7 @@ align-items: center;
 
 .header__container {
     display: flex;
-    padding-top: 50px;
+    padding-top: 200px;
 }
 
 .header__description {
@@ -154,7 +154,7 @@ align-items: center;
 }
 
 .header__description--p {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px;
     font-size: 20px;
 }
