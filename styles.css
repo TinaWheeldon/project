@@ -31,7 +31,7 @@
 }
 
 .nav__logo--title {
-   font-size: 24px;
+    font-size: 24px;
     font-weight: 900;
     margin-left: 12px;
     letter-spacing: 0.6px;
@@ -44,7 +44,7 @@
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 a:hover {
@@ -118,9 +118,9 @@ button {
 }
 
 .modal__links {
-display: flex;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .modal__link {
@@ -156,18 +156,12 @@ align-items: center;
 
 .header__description {
     display: flex;
-   
+
 }
 
 .header__description--title {
-    display: flex;
-    flex-direction: column;
     font-size: 40px;
     width: 40%;
-}
-
-.h__d--t {
-    font-size: 40px;
 }
 
 .header__description--p {
@@ -218,6 +212,7 @@ align-items: center;
 
 .customer__header {
     display: flex;
+    width: 500px;
 }
 
 .header__img--wrapper {
@@ -275,7 +270,7 @@ align-items: center;
     display: flex;
     width: 24px;
     height: 24px;
-    
+
 }
 
 .feature__title {
@@ -284,7 +279,7 @@ align-items: center;
 }
 
 .feature__p {
-justify-content: center;
+    justify-content: center;
 }
 
 /* QAULITY */
@@ -296,23 +291,23 @@ justify-content: center;
 }
 
 .quality__header {
-width: 50%;
-display: flex;
-flex-direction: column;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .quality__header--t {
-font-weight: 900;
-font-size: 40px;
+    font-weight: 900;
+    font-size: 40px;
 
 }
 
 .quality__header--p {
-padding-top: 20px;
-font-size: 18px;
-font-weight: 500;
-color: #7c8ba1;
-padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    padding-bottom: 20px;
 }
 
 .quality__header--btn:hover {
@@ -320,16 +315,16 @@ padding-bottom: 20px;
 }
 
 .quality__header--btn {
-border-radius: 500px;
-background-color: #6415ff;
-color: white;
-font-size: 14px;
-font-weight: bold;
-padding: 12px 32px;
+    border-radius: 500px;
+    background-color: #6415ff;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 32px;
 }
 
 .quality__img {
-    width: 50%;
+    width: 500px;
 }
 
 /* STEPS */
@@ -345,6 +340,10 @@ padding: 12px 32px;
     position: relative;
 }
 
+.step__img {
+    width: 500px;
+}
+
 .step__directory {
     width: 50%;
     display: flex;
@@ -354,11 +353,13 @@ padding: 12px 32px;
 .step__tag {
     font-weight: 600;
     font-size: 16px;
+    padding-bottom: 20px;
 }
 
 .step__title {
     font-weight: 900;
     font-size: 40px;
+    padding-bottom: 20px;
 }
 
 .step {
@@ -369,11 +370,21 @@ padding: 12px 32px;
 .number {
     font-weight: 500;
     font-size: 30px;
+    padding-bottom: 5px;
 }
 
 .step__t {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
     font-weight: 600;
     font-size: 20px;
+}
+
+.step__para {
+    display: flex;
+    padding-left: 50px;
+    padding-bottom: 20px;
 }
 
 
@@ -386,34 +397,26 @@ padding: 12px 32px;
 }
 
 .values__header {
-padding-bottom: 20px;
-font-weight: 600;
-font-size: 16px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .values__header--t {
-font-weight: 900;
-font-size: 40px;
+    font-weight: 900;
+    font-size: 40px;
 
 }
 
 .values__header--p {
-padding-top: 20px;
-font-size: 18px;
-font-weight: 500;
-color: #7c8ba1;
-padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    padding-bottom: 20px;
 }
 
-.values__title {
-    font-weight: 800;
-}
-
-.values__name {
-    display: flex;
-}
-
-.values__p {
+.list__value {
     display: flex;
 }
 
@@ -422,24 +425,17 @@ padding-bottom: 20px;
 }
 
 .values__header--btn {
-border-radius: 500px;
-background-color: #6415ff;
-color: white;
-font-size: 14px;
-font-weight: bold;
-padding: 12px 32px;
-}
-
-.values__img--wrap {
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 500px;
+    background-color: #6415ff;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px 32px;
 }
 
 .values__img {
-    width: 20px;
-    height: 20px;
+    width: 500px;
+    height: 500px;
 }
 
 
@@ -450,15 +446,3 @@ padding: 12px 32px;
 /* CALL TO ACTION */
 
 /* FOOTER */
-
-
-@media (max-width: 1280px) {
-
-    .customer__header {
-        max-width: 512px;
-    }
-
-    .header__img {
-        max-width: 512px;
-    }
-}
