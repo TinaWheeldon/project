@@ -405,19 +405,16 @@ color: #7c8ba1;
 padding-bottom: 20px;
 }
 
-.value__title {
-    display: flex;
+.values__title {
+    font-weight: 800;
 }
 
 .values__name {
-   display: flex;
-    font-weight: 800;
-    font-size: 18px;
+    display: flex;
 }
 
 .values__p {
     display: flex;
-    flex-direction: column;
 }
 
 .values__header--btn:hover {
@@ -434,7 +431,15 @@ padding: 12px 32px;
 }
 
 .values__img--wrap {
+    border-radius: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.values__img {
+    width: 20px;
+    height: 20px;
 }
 
 
