@@ -552,3 +552,20 @@ padding-bottom: 20px;
 }
 
 /* FOOTER */
+
+.foot__column {
+display: flex;
+flex-direction: column;
+width: calc(100%/5);
+align-items: center;
+}
+
+.column {
+display: flex;
+flex-wrap: wrap;
+}
+
+.column__title {
+    display: flex;
+}
+
