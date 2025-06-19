@@ -441,6 +441,23 @@ button {
 
 /* PRICING */
 
+#pricing .row {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.plans {
+display: flex;
+flex-wrap: wrap;
+}
+
+.plan {
+width: calc(100%/3);
+display: flex;
+flex-direction: column;
+}
+
 .pricing__header {
     display: flex;
     justify-content: center;
@@ -465,8 +482,35 @@ padding-bottom: 20px;
 
 /* TESTIMONIALS */
 
+.test__desription {
+    display: flex;
+    justify-content: center;
+}
+
+.test__img {
+    width: 500px;
+    height: 500px;
+}
+
+.test__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial__img {
+    width: 80px;
+    border-radius: 500px;
+}
+
 .test__buttons {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test__arrows {
+    width: 16px;
 }
 
 
