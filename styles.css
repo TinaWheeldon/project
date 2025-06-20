@@ -553,6 +553,11 @@ padding-bottom: 20px;
 
 /* FOOTER */
 
+.footer__row {
+    display: flex;
+    background-color: #6415ff;
+}
+
 .foot__column {
 display: flex;
 flex-direction: column;
@@ -560,12 +565,28 @@ width: calc(100%/5);
 align-items: center;
 }
 
-.column {
-display: flex;
-flex-wrap: wrap;
+.column__title {
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
 
-.column__title {
+.foot__column--link {
+    padding-bottom: 10px;
+    color: white;
+}
+
+.foot__bottom {
     display: flex;
 }
 
+.foot__logo--img {
+    width: 40px;
+}
+
+.social__link svg {
+    background-color: white;
+    border-radius: 500px;
+    width: 16px;
+    height: 16px;
+}
