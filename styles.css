@@ -59,6 +59,10 @@ a:hover {
     list-style-type: none;
 }
 
+.nav__link:hover {
+    color: #6415ff;
+}
+
 .nav__link {
     font-size: 14px;
     font-weight: 600;
@@ -129,7 +133,6 @@ button {
     font-size: 18px;
     font-weight: 600;
     margin: 8px 0;
-    padding-bottom: 4px;
 }
 
 .btn__menu:hover {
@@ -191,6 +194,7 @@ button {
 }
 
 .email__header--input {
+    width: 100%;
     border-radius: 500px;
     padding: 20px 192px 20px 32px;
     color: rgb(36, 62, 99);
@@ -212,7 +216,7 @@ button {
     font-weight: 700;
     font-size: 16px;
     position: absolute;
-    right: 62.5%;
+    right: 0;
 }
 
 .customer__header--title {
@@ -266,17 +270,19 @@ button {
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: 45px;
+    font-size: 48px;
     font-weight: 900;
 }
 
 .section__p {
-    padding-bottom: 50px;
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .features {
+    padding-top: 40px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -290,9 +296,14 @@ button {
 
 .feature__img--wrap {
     display: flex;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 500px;
+}
+
+.img__feature {
     width: 24px;
     height: 24px;
-
 }
 
 .feature__title {
@@ -650,4 +661,5 @@ align-items: center;
     .nav__links {
         display: none;
     }
+
 }
