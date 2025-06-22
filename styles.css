@@ -17,7 +17,7 @@
 .nav__container {
     width: 100%;
     max-width: 1200px;
-    padding: 0 24px;
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,6 +81,8 @@ a:hover {
 
 .nav__link--primary:hover {
     text-decoration: none;
+    background-color: rgb(60, 13, 153);
+    color: #6415ff
 }
 
 button {
