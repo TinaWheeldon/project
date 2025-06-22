@@ -41,7 +41,7 @@
 .logo__img {
     width: 40px;
     height: 40px;
-   
+
 }
 
 a {
@@ -145,7 +145,7 @@ button {
     border: none;
 }
 
-.btn__menu--close {  
+.btn__menu--close {
     position: absolute;
     top: 10px;
     right: 20px;
@@ -220,7 +220,7 @@ button {
 }
 
 .customer__header--title {
-   margin-top: 150px;
+    margin-top: 150px;
     color: #a0aec0;
     font-size: 12px;
     font-weight: 700;
@@ -238,19 +238,8 @@ button {
 
 .header__img {
     width: 800px;
-    height: 500px;    
+    height: 500px;
 }
-
-.header__blob {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    opacity: 0.05;
-    width: 256px;
-    height: 256px;
-    transform: matrix(1, 0, 0, 1, -163, 0);
-}
-
 
 /* FEATURES */
 
@@ -316,15 +305,6 @@ button {
     color: rgb(124, 139, 161);
 }
 
-.features__blob {
-    transform: translateX(96px) translateY(192px) scaleX(1) scaleY(1);
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    width: 16rem;
-    opacity: 0.25;
-    padding: 16px;
-}
 /* QAULITY */
 
 #quality .row {
@@ -374,20 +354,6 @@ button {
 
 .quality__img {
     width: 500px;
-}
-
-.quality__grid {
-    transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    fill: rgb(100, 21, 255);
-    --tw-text-opacity: 1;
-    color: rgba(100, 21, 255, var(--tw-text-opacity));
-    z-index: 0;
-    display: block;
 }
 
 /* STEPS */
@@ -483,6 +449,21 @@ button {
     display: flex;
 }
 
+.value__title {
+    display: flex;
+    flex-direction: column;
+}
+
+.values__name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.values__p {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
 .values__header--btn:hover {
     background-color: rgb(60, 13, 153);
 }
@@ -505,20 +486,9 @@ button {
 /* PRICING */
 
 #pricing .row {
-width: 100%;
-max-width: 1200px;
-margin: 0 auto;
-}
-
-.plans {
-display: flex;
-flex-wrap: wrap;
-}
-
-.plan {
-width: calc(100%/3);
-display: flex;
-flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .pricing__header {
@@ -529,18 +499,57 @@ flex-direction: column;
 }
 
 .pricing__title {
-display: flex;
-justify-content: center;
-font-size: 40px;
-font-weight: 700;
-padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
 }
 
 .pricing__para {
-display: flex;
-justify-content: center;
-align-items: center;
-padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle {
+    
+}
+
+.plan__button1 {
+    border-radius: 500px;
+    font-size: 14px;
+    padding: 16px 32px;
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan__button2 {
+    border-radius: 500px;
+    font-size: 14px;
+    padding: 16px 32px;
+    color: #6415ff;
+    background-color: #f7fafc;
+}
+
+.plan__button3 {
+    border-radius: 500px;
+    font-size: 14px;
+    padding: 16px 32px;
+    color: #f7fafc;
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 /* TESTIMONIALS */
@@ -627,10 +636,10 @@ padding-bottom: 20px;
 }
 
 .foot__column {
-display: flex;
-flex-direction: column;
-width: calc(100%/5);
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
 }
 
 .column__title {
