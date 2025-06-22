@@ -41,6 +41,7 @@
 .logo__img {
     width: 40px;
     height: 40px;
+   
 }
 
 a {
@@ -115,8 +116,6 @@ button {
 }
 
 .modal__links {
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,8 +132,14 @@ button {
     padding-bottom: 4px;
 }
 
+.btn__menu:hover {
+    color: #6415ff;
+}
+
 .btn__menu {
     display: none;
+    background: transparent;
+    border: none;
 }
 
 .btn__menu--close {  
@@ -158,7 +163,7 @@ button {
 
 .header__container {
     display: flex;
-    padding-top: 200px;
+    padding-top: 100px;
 }
 
 .header__description {
@@ -212,13 +217,15 @@ button {
 }
 
 .customer__header--title {
-    padding-top: 150px;
-    padding-bottom: 20px;
-    font-weight: 900;
+   margin-top: 80px;
+    color: #a0aec0;
+    font-size: 12px;
+    font-weight: 700;
 }
 
-.customer__header {
-    display: flex;
+.customer__header--img {
+    margin-top: 16px;
+    opacity: 0.5;
     width: 500px;
 }
 
@@ -229,7 +236,8 @@ button {
 }
 
 .header__img {
-    width: 100%;
+    width: 500px;
+    height: 500px;    
 }
 
 .head__blob {
@@ -637,6 +645,7 @@ align-items: center;
 /* PHONES, TABLETS, LAPTOPS */
 
 @media (max-width: 992px) {
+
     .btn__menu {
         display: block;
     }
