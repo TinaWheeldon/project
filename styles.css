@@ -168,18 +168,17 @@ button {
 
 .header__description {
     display: flex;
-
+    width: 40%;
 }
 
 .header__description--title {
-    font-size: 40px;
-    width: 40%;
+    font-size: 50px;
 }
 
 .header__description--p {
     display: flex;
     margin: 20px 0;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .purple {
@@ -213,11 +212,11 @@ button {
     font-weight: 700;
     font-size: 16px;
     position: absolute;
-    right: 65%;
+    right: 62.5%;
 }
 
 .customer__header--title {
-   margin-top: 80px;
+   margin-top: 150px;
     color: #a0aec0;
     font-size: 12px;
     font-weight: 700;
@@ -230,13 +229,11 @@ button {
 }
 
 .header__img--wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    height: 30px;
+    width: calc(100% - 40%);
 }
 
 .header__img {
-    width: 500px;
+    width: 800px;
     height: 500px;    
 }
 
