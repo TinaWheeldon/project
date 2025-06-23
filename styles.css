@@ -730,9 +730,10 @@ button {
 }
 .test__img--wrapper {
     width: 50%;
+    padding-right: 50px;
 }
 
-.test__desription {
+.test__description {
     width: 50%;
 }
 
