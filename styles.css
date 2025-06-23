@@ -522,10 +522,128 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 32px;
 }
 
 .middle {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.plan__head {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.price { 
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.month {
+    font-size: 16px;
+    font-weight: bold;
+    color: #a0aec0;
+}
+
+.person {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.templates {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #718096;
+}
+
+.l__pages {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #718096;
+}
+
+.i__pages {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #718096;
+}
+
+.assistance {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #718096;
+}
+
+.plan2 {
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan__head2 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.price2 { 
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.month2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.person2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.templates2 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.l__pages2 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.i__pages2 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.assistance2 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
 }
 
 .plan__button1 {
