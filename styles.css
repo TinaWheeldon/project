@@ -501,8 +501,8 @@ button {
 .pricing__title {
     display: flex;
     justify-content: center;
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 48px;
+    font-weight: 900;
     padding-bottom: 20px;
 }
 
@@ -518,14 +518,22 @@ button {
 }
 
 .plan {
+    width: 100%;
+    max-width: 384px;
     position: relative;
     margin: 64px 32px 0 0;
     border: 2px solid;
+    border-radius: 8px;
+    border-color: #f0f0f0;
 }
 .plan2 {
+    width: 100%;
+    max-width: 384px;
     position: relative;
     margin: 64px 32px 0 0;
     border: 2px solid;
+    border-radius: 8px;
+    border-color: #f0f0f0;
 }
 
 .plan__stripe {
