@@ -722,18 +722,46 @@ button {
 
 #testimonials .row {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
-.test__desription {
-    display: flex;
-    justify-content: center;
+.test__img {
+    width: 100%;
+}
+.test__img--wrapper {
+    width: 50%;
 }
 
-.test__img {
-    width: 500px;
-    height: 500px;
+.test__desription {
+    width: 50%;
+}
+
+.test__header {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.test__title {
+    padding-bottom: 20px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.test__rating {
+    color: rgba(246, 173, 85);
+}
+
+.test__t {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.test__para {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a5568;
 }
 
 .test__bottom {
