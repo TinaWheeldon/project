@@ -753,8 +753,21 @@ button {
     align-items: center;
 }
 
+.test__button {
+    border-radius: 500px;
+    padding: 16px;
+}
+
 .test__arrows {
     width: 16px;
+    stroke: #6415ff;
+}
+
+.divider {
+    width: 1px;
+    height: 24px;
+    background: rgb(229, 231, 235);
+    margin: 10px
 }
 
 /* CALL TO ACTION */
