@@ -518,6 +518,15 @@ button {
     justify-content: space-between;
 }
 
+.plan__stripe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
 .top {
     display: flex;
     flex-direction: column;
