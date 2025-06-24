@@ -865,22 +865,17 @@ button {
 
 /* CALL TO ACTION */
 
-#start .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .start__con {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    padding: 96px;
+    padding: 96px 0;
     background-color: #6415ff;
+    border-radius: 8px;
 }
 
-.start__row {
+.start__p {
     color: #f7fafc;
     font-size: 30px;
     font-weight: 700;
