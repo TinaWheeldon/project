@@ -926,24 +926,25 @@ button {
 .footer__row {
     display: flex;
     flex-direction: column;
+    padding: 96px 32px;
     background-color: #6415ff;
 }
 
 .foot__columns {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .foot__column {
     display: flex;
     flex-direction: column;
     width: calc(100%/5);
-    align-items: center;
 }
 
 .column__title {
     color: white;
     font-weight: 600;
-    padding-top: 60px;
     padding-bottom: 20px;
 }
 
@@ -952,12 +953,17 @@ button {
     color: white;
 }
 
+.foot__div {
+    width: 100%;
+    height: 2px;
+    margin: 64px 0;
+    background: rgb(116, 44, 255);
+}
+
 .foot__logo {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .foot__title {
@@ -976,7 +982,8 @@ button {
 }
 
 .copyright {
-    color: white;
+    font-weight: 500;
+    color: #cbd5e0;
 }
 
 .social__link svg {
@@ -985,6 +992,7 @@ button {
     width: 32px;
     height: 32px;
     padding: 8px;
+    margin-left: 16px;
 }
 
 /* PHONES, TABLETS, LAPTOPS */
