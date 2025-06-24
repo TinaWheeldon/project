@@ -754,7 +754,7 @@ button {
 }
 
 .test__rating {
-    color: rgba(246, 173, 85);
+    padding-bottom: 20px;
 }
 
 .test__t {
