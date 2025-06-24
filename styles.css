@@ -136,7 +136,7 @@ button {
 }
 
 .btn__menu:hover {
-    color: #6415ff;
+    stroke: #6415ff;
 }
 
 .btn__menu {
@@ -311,16 +311,19 @@ button {
 
 .quality__description {
     width: 50%;
+    margin-right: 64px;
 }
 
 .quality__header {
-    width: 50%;
     display: flex;
+    width: 50%;
+    padding-bottom: 20px;
 }
 
 .quality__header--t {
     font-weight: 900;
     font-size: 48px;
+    padding-bottom: 20px;
 }
 
 .quality__header--p {
@@ -328,7 +331,7 @@ button {
     font-size: 18px;
     font-weight: 500;
     color: #7c8ba1;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .quality__header--btn:hover {
@@ -350,6 +353,8 @@ button {
 
 .quality__img {
     width: 500px;
+    border: 1px solid;
+    border-color: #dee4eb;
 }
 
 /* STEPS */
@@ -396,6 +401,7 @@ button {
     font-weight: 500;
     font-size: 30px;
     padding-bottom: 5px;
+    color: #a0aec0;
 }
 
 .step__t {
@@ -410,6 +416,7 @@ button {
     display: flex;
     padding-left: 50px;
     padding-bottom: 20px;
+    color: #a0aec0;
 }
 
 
@@ -443,6 +450,7 @@ button {
 
 .list__value {
     display: flex;
+    padding-right: 64px
 }
 
 .value__title {
@@ -453,11 +461,13 @@ button {
 .values__name {
     font-size: 20px;
     font-weight: 600;
+    padding-bottom: 20px;
 }
 
 .values__p {
     font-size: 16px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-right: 35px;
 }
 
 .values__header--btn:hover {
@@ -478,6 +488,17 @@ button {
     height: 500px;
 }
 
+.dollar__img {
+    background-color: #9ae6b4;
+    border-radius: 500px;
+    padding: 8px;
+}
+
+.briefcase__img {
+    background-color: #feb2b2;
+    border-radius: 500px;
+    padding: 8px;
+}
 
 /* PRICING */
 
