@@ -196,6 +196,7 @@ button {
 .email__header--input {
     width: 100%;
     border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
     padding: 20px 192px 20px 32px;
     color: rgb(36, 62, 99);
     position: absolute;
@@ -250,7 +251,7 @@ button {
 .section__header {
     display: flex;
     justify-content: center;
-    padding-top: 300px;
+    padding-top: 200px;
     font-size: 15px;
 }
 
@@ -285,8 +286,8 @@ button {
 
 .feature__img--wrap {
     padding: 20px;
-    border: 1px solid;
     border-radius: 500px;
+    border: 2px solid rgb(229, 231, 235);
 }
 
 .img__feature {
@@ -579,6 +580,8 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 32px;
+    border-top: 2px solid rgb(229, 231, 235);
+    border-bottom: 2px solid rgb(229, 231, 235);
 }
 
 .bottom {
@@ -696,7 +699,7 @@ button {
 }
 
 .plan__button1:hover {
-    translate: (1px, -1px);
+    transform: translate(1px, -1px);
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
      rgba(0, 0, 0, 0) 0px 0px 0px 0px,
       rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
@@ -704,7 +707,7 @@ button {
 }
 
 .plan__button2:hover {
-    translate: (1px, -1px);
+    transform: translate(1px, -1px);
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
      rgba(0, 0, 0, 0) 0px 0px 0px 0px,
       rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
@@ -712,7 +715,7 @@ button {
 }
 
 .plan__button3:hover {
-    translate: (1px, -1px);
+    transform: translate(1px, -1px);
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
      rgba(0, 0, 0, 0) 0px 0px 0px 0px,
       rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
