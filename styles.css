@@ -740,13 +740,17 @@ button {
 .test__header {
     font-size: 16px;
     font-weight: 700;
-    padding-bottom: 20px;
 }
 
 .test__title {
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     font-size: 48px;
     font-weight: 900;
+}
+
+.section__para {
+    padding-bottom: 40px;
 }
 
 .test__rating {
