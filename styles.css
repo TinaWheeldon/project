@@ -1030,9 +1030,22 @@ button {
 
 /* PHONES, TABLETS, LAPTOPS */
 
-@media (max-width: 1200px) {
-    .container {
-        padding: 96px 0;
+@media (max-width: 1024px) {
+    header .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .start__row {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    footer {
+        padding: 80px 32px;
     }
 }
 
@@ -1045,5 +1058,25 @@ button {
     .nav__links {
         display: none;
     }
+}
 
+@media (max-width: 768px) {
+    #quality .row, #values .row {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 768px) {
+    #steps .row, #testimonials .row {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    #pricing .row {
+        flex-direction: column;
+        align-items: center;
+    }
 }
