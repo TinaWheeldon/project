@@ -173,8 +173,13 @@ button {
     padding-top: 100px;
 }
 
-.header__description {
+header .row {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__description {
     width: 40%;
 }
 
@@ -238,7 +243,7 @@ button {
 }
 
 .header__img--wrapper {
-    width: calc(100% - 40%);
+    width: 60%;
 }
 
 .header__img {
