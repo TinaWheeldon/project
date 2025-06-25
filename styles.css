@@ -302,8 +302,13 @@ button {
     padding-left: 16px;
 }
 
+#features .section__p {
+    text-align: center;
+    max-width: 576px;
+    margin-left: 480px;
+}
+
 .feature__p {
-    justify-content: center;
     margin-left: 16px;
     color: rgb(124, 139, 161);
     margin-right: 100px;
@@ -456,7 +461,7 @@ button {
     font-weight: 500;
     color: #7c8ba1;
     padding-bottom: 20px;
-    margin-right: 160px;
+    margin-right: 170px;
 }
 
 .list__value {
@@ -547,10 +552,14 @@ button {
     padding-bottom: 20px;
 }
 
+#pricing .pricing__para {
+    text-align: center;
+   max-width: 576px;
+    margin-left: 300px;
+}
+
 .pricing__para {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 18px;
 }
 
 .plans {
