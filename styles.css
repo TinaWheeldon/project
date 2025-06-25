@@ -880,28 +880,38 @@ button {
 
 /* CALL TO ACTION */
 
+#start {
+    padding: 0px 32px;
+}
+
 .start__con {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     padding: 96px 0;
     background-color: #6415ff;
     border-radius: 8px;
     margin-bottom: 100px;
 }
 
-#start .row {
-    position: relative;
+.start__row {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .start__p {
     color: #f7fafc;
     font-size: 30px;
     font-weight: 700;
+    width: 50%;
 }
 
 .start__buttons {
     display: flex;
+    justify-content: flex-end;
+    width: 50%;
 }
 
 .start__button1:hover {
