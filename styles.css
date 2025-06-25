@@ -8,6 +8,10 @@
     color: #243e63;
 }
 
+.container {
+    padding: 96px 0;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
@@ -181,7 +185,7 @@ button {
 .header__description--p {
     display: flex;
     margin: 20px 0;
-    font-size: 17px;
+    font-size: 18px;
 }
 
 .purple {
@@ -267,8 +271,10 @@ button {
 .section__p {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 18px;
     font-weight: 600;
+    color: #7c8ba1;
 }
 
 .features {
@@ -286,19 +292,21 @@ button {
 
 .feature__img--wrap {
     padding: 20px;
+    height: 70px;
     border-radius: 500px;
     border: 2px solid rgb(229, 231, 235);
 }
 
 .feature__title {
     padding-bottom: 20px;
-    padding-left: 10px;
+    padding-left: 16px;
 }
 
 .feature__p {
     justify-content: center;
     margin-left: 16px;
     color: rgb(124, 139, 161);
+    margin-right: 100px;
 }
 
 /* QAULITY */
@@ -332,6 +340,7 @@ button {
     font-weight: 500;
     color: #7c8ba1;
     padding-bottom: 40px;
+    margin-right: 150px;
 }
 
 .quality__header--btn:hover {
@@ -417,6 +426,7 @@ button {
     padding-left: 50px;
     padding-bottom: 20px;
     color: #a0aec0;
+    margin-right: 200px;
 }
 
 
@@ -437,6 +447,7 @@ button {
 .values__header--t {
     font-weight: 900;
     font-size: 40px;
+    margin-right: 300px;
 }
 
 .values__header--p {
@@ -445,6 +456,7 @@ button {
     font-weight: 500;
     color: #7c8ba1;
     padding-bottom: 20px;
+    margin-right: 160px;
 }
 
 .list__value {
@@ -469,9 +481,10 @@ button {
 }
 
 .values__p {
-    font-size: 16px;
+    font-size: 18px;
     padding-bottom: 40px;
-    padding-right: 35px;
+    margin-right: 50px;
+    color: #718096;
 }
 
 .values__header--btn:hover {
@@ -870,10 +883,10 @@ button {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
     padding: 96px 0;
     background-color: #6415ff;
     border-radius: 8px;
+    margin-bottom: 100px;
 }
 
 .start__p {
@@ -992,6 +1005,12 @@ button {
 }
 
 /* PHONES, TABLETS, LAPTOPS */
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 96px 0;
+    }
+}
 
 @media (max-width: 992px) {
 
