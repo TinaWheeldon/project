@@ -346,7 +346,7 @@ header .row {
 
 .quality__header {
     display: flex;
-    width: 50%;
+    width: 100%;
     padding-bottom: 20px;
     max-width: 576px;
 }
@@ -365,7 +365,6 @@ header .row {
     font-weight: 500;
     color: #7c8ba1;
     padding-bottom: 40px;
-    margin-right: 150px;
 }
 
 .quality__header--btn:hover {
@@ -1154,6 +1153,10 @@ header .row {
         padding: 0;
         margin-top: 64px;
         text-align: center;
+    }
+
+    .quality__header {
+        justify-content: center;
     }
 
      .step__directory {
