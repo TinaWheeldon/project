@@ -247,7 +247,6 @@ header .row {
 
 .header__img {
     width: 100%;
-    margin-left: 50px;
 }
 
 /* FEATURES */
@@ -570,13 +569,10 @@ header .row {
     padding-bottom: 20px;
 }
 
-#pricing .pricing__para {
+.pricing__para {
     text-align: center;
     max-width: 576px;
     margin-left: 300px;
-}
-
-.pricing__para {
     font-size: 18px;
 }
 
@@ -1054,7 +1050,7 @@ header .row {
         align-items: center;
     }
 
-    .header__customers--title,
+    .customer__header--title,
     .header__img--wrapper {
         margin-top: 48px;
     }
@@ -1067,7 +1063,7 @@ header .row {
         width: 50%;
     }
 
-    footer {
+    .footer {
         padding: 80px 32px;
     }
 }
@@ -1089,6 +1085,11 @@ header .row {
 
 @media (max-width: 768px) {
 
+    .section__t {
+        flex-direction: column;
+        align-items: center;
+    }
+
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
@@ -1100,14 +1101,26 @@ header .row {
         align-items: center;
     }
 
-    #pricing .row {
+    .pricing__title {
         flex-direction: column;
         align-items: center;
+    }
+
+    .pricing__para {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plans {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
 
     .feature {
         width: 100%;
     }
+
 }
 
 /* PHONES */
@@ -1134,4 +1147,16 @@ header .row {
         .header__customers--title {
         font-size: 14px;
         }
+
+        .foot__columns {
+        justify-content: center;
+    }
+
+        .foot__column {
+        width: auto;
+        padding: 0 16px;
+        text-align: center;
+        align-items: center;
+    }
+
 }
