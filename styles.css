@@ -1072,6 +1072,11 @@ header .row {
         padding-bottom: 40px;
     }
 
+   .feature__row {
+        padding: 32px 8px;
+        margin: 0 16px;
+    }
+
     .feature {
         width: 50%;
     }
@@ -1135,12 +1140,14 @@ header .row {
         width: 100%;
     }
 
-    .features {
+    .feature__row {
+        display: flex;
         align-items: center;
     }
 
     .feature {
-        width: 100%;
+        width: auto;
+        max-width: 384px;
     }
 
 }
