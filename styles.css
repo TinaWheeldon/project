@@ -199,7 +199,8 @@ header .row {
 
 .email__header {
     position: relative;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .email__header--input {
@@ -229,7 +230,6 @@ header .row {
 }
 
 .customer__header--title {
-    margin-top: 150px;
     color: #a0aec0;
     font-size: 12px;
     font-weight: 700;
@@ -238,7 +238,7 @@ header .row {
 .customer__header--img {
     margin-top: 16px;
     opacity: 0.5;
-    width: 500px;
+    width: 100%;
 }
 
 .header__img--wrapper {
@@ -246,8 +246,8 @@ header .row {
 }
 
 .header__img {
-    width: 800px;
-    height: 500px;
+    width: 100%;
+    margin-left: 50px;
 }
 
 /* FEATURES */
@@ -1054,6 +1054,11 @@ header .row {
         align-items: center;
     }
 
+    .header__customers--title,
+    .header__img--wrapper {
+        margin-top: 48px;
+    }
+
     .start__row {
         flex-direction: column;
     }
@@ -1099,7 +1104,7 @@ header .row {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .feature {
         width: 100%;
     }
@@ -1118,4 +1123,15 @@ header .row {
         padding: 16px 0;
         padding-left: 32px;
     }
+
+    .header__email--btn {
+        width: 100%;
+        padding: 16px 0;
+        margin: 16px 0;
+        margin-bottom: 0px;
+    }
+    
+        .header__customers--title {
+        font-size: 14px;
+        }
 }
