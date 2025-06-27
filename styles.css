@@ -1136,7 +1136,7 @@ header .row {
         flex-direction: column;
         align-items: center;
     }
-
+    
     .feature__row {
         display: flex;
         align-items: center;
@@ -1165,6 +1165,7 @@ header .row {
 
     .step__tag {
         display: flex;
+        justify-content: center;
         align-items: center;
     }
 
@@ -1176,7 +1177,6 @@ header .row {
     .step__para {
         align-items: center;
     }
-
 
     .plan__div {
         display: flex;
