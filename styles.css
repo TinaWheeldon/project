@@ -1186,6 +1186,24 @@ header .row {
         width: 100%;
     }
 
+     .footer__column {
+        width: calc(100% / 3);
+    }
+
+    .foot__logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot__title {
+        padding-bottom: 20px;
+    }
+
+    .copyright {
+        padding-bottom: 20px;
+    }
+
 }
 
 /* PHONES */
