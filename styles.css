@@ -1223,6 +1223,10 @@ header .row {
     }
 
     .value__title {
+        text-align: center;
+    }
+
+    .value__div {
         align-items: center;
     }
 
