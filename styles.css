@@ -1163,12 +1163,12 @@ header .row {
         padding-top: 60px;
     }
 
-    .step__title {
+    .step {
+        flex-direction: column;
         align-items: center;
     }
 
-    .step {
-        flex-direction: column;
+    .step__para {
         align-items: center;
     }
 
