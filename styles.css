@@ -491,7 +491,6 @@ header .row {
 
 .list__value {
     display: flex;
-    padding-right: 64px
 }
 
 .value__title {
@@ -513,7 +512,6 @@ header .row {
 .values__p {
     font-size: 18px;
     padding-bottom: 40px;
-    margin-right: 50px;
     color: #718096;
 }
 
@@ -1222,6 +1220,14 @@ header .row {
 
     .list__value {
         flex-direction: column;
+    }
+
+    .value__title {
+        align-items: center;
+    }
+
+    .values__header--btn {
+        align-items: center;
     }
 
     .plan__div {
