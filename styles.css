@@ -385,7 +385,7 @@ header .row {
 }
 
 .quality__img {
-    width: 500px;
+    width: 100%;
     border: 1px solid;
     border-color: #dee4eb;
 }
@@ -401,10 +401,12 @@ header .row {
 .step__img--wrapper {
     display: flex;
     position: relative;
+    width: 50%;
+    margin-right: 50px;
 }
 
 .step__img {
-    width: 500px;
+    width: 100%;
 }
 
 .step__directory {
@@ -463,6 +465,10 @@ header .row {
     align-items: center;
 }
 
+.value__description {
+    width: 50%;
+}
+
 .values__header {
     padding-bottom: 20px;
     font-weight: 600;
@@ -472,7 +478,7 @@ header .row {
 .values__header--t {
     font-weight: 900;
     font-size: 40px;
-    margin-right: 300px;
+    margin-right: 200px;
 }
 
 .values__header--p {
@@ -481,7 +487,6 @@ header .row {
     font-weight: 500;
     color: #7c8ba1;
     padding-bottom: 20px;
-    margin-right: 170px;
 }
 
 .list__value {
@@ -525,9 +530,12 @@ header .row {
     padding: 12px 32px;
 }
 
+.values__img--wrap {
+    width: 50%;
+}
+
 .values__img {
-    width: 500px;
-    height: 500px;
+    width: 100%
 }
 
 .values__img--wrapper {
@@ -1099,6 +1107,19 @@ header .row {
         font-size: 36px;
     }
 
+     .value__description {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .values__header--t {
+        font-size: 36px;
+    }
+
+    .values__header--p {
+        font-size: 16px;
+    }
+
     .footer {
         padding: 80px 32px;
     }
@@ -1159,6 +1180,10 @@ header .row {
         justify-content: center;
     }
 
+    .step__img--wrapper {
+        margin-right: -50px;
+    }
+
      .step__directory {
         padding-top: 60px;
     }
@@ -1175,7 +1200,18 @@ header .row {
     }
 
     .step__para {
+        padding-top: 20px;
+        justify-content: center;
         align-items: center;
+    }
+
+    .values__header--t {
+        text-align: center;
+        margin-right: -10px;
+    }
+
+    .values__header--p {
+        font-size: 14px;
     }
 
     .plan__div {
@@ -1257,6 +1293,10 @@ header .row {
     }
 
     .step__title {
+        font-size: 30px;
+    }
+
+    .values__header--t {
         font-size: 30px;
     }
 
