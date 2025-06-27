@@ -1205,6 +1205,11 @@ header .row {
         align-items: center;
     }
 
+    .values__header {
+        padding-top: 50px;
+        text-align: center;
+    }
+
     .values__header--t {
         text-align: center;
         margin-right: -10px;
@@ -1212,6 +1217,11 @@ header .row {
 
     .values__header--p {
         font-size: 14px;
+        text-align: center;
+    }
+
+    .list__value {
+        flex-direction: column;
     }
 
     .plan__div {
