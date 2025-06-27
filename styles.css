@@ -1161,9 +1161,17 @@ header .row {
 
      .step__directory {
         padding-top: 60px;
+    }
+
+    .step__title {
+        align-items: center;
+    }
+
+    .step {
         flex-direction: column;
         align-items: center;
     }
+
 
     .plan__div {
         display: flex;
