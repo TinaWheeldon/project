@@ -139,8 +139,8 @@ button {
     margin: 8px 0;
 }
 
-.btn__menu:hover {
-    stroke: #6415ff;
+.btn__menu--svg:hover {
+    color: #6415ff;
 }
 
 .btn__menu {
@@ -184,7 +184,7 @@ header .row {
 }
 
 .header__description--title {
-    font-size: 50px;
+    font-size: 48px;
 }
 
 .header__description--p {
@@ -1092,6 +1092,18 @@ header .row {
         align-items: center;
     }
 
+    .header__description {
+        max-width: 512px;
+        margin: 0 auto;
+        text-align: center;
+         align-items: center;
+         width: 100%;
+        }
+
+    .header__description--title {
+        font-size: 30px;
+    }
+
     .customer__header--title,
     .header__img--wrapper {
         margin-top: 48px;
@@ -1360,6 +1372,7 @@ header .row {
 /* PHONES */
 
 @media (max-width: 640px) {
+
     .email__header {
         flex-direction: column;
         height: auto;
@@ -1368,7 +1381,7 @@ header .row {
     .header__email--input {
         padding: 16px 0;
         padding-left: 32px;
-        position: none;
+        width: 100%;
     }
 
     .header__email--btn {
