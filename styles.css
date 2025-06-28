@@ -1217,6 +1217,11 @@ header .row {
         align-items: center;
     }
 
+    .email__header--btn {
+        position: unset;
+        width: 100%;
+    }
+
     #quality .row,
     #values .row {
         flex-direction: column-reverse;
@@ -1381,14 +1386,10 @@ header .row {
     .header__email--input {
         padding: 16px 0;
         padding-left: 32px;
-        width: 100%;
     }
 
     .header__email--btn {
-        width: 100%;
         padding: 16px 0;
-        margin: 16px 0;
-        margin-bottom: 0px;
         position: none;
     }
 
