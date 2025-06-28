@@ -1132,6 +1132,21 @@ header .row {
         font-size: 36px;
     }
 
+    .start__row {
+        flex-direction: column;
+    }
+
+    .start__p {
+        text-align: center;
+        width: 100%;
+        max-width: 512px;
+    }
+
+    .start__buttons {
+        width: auto;
+        margin-top: 24px;
+    }
+
     .footer {
         padding: 80px 32px;
     }
@@ -1148,6 +1163,7 @@ header .row {
     .nav__links {
         display: none;
     }
+
 }
 
 /* TABLETS */
@@ -1372,6 +1388,15 @@ header .row {
         align-items: center;
         margin-left: 0px;
         margin-top: 32px;
+    }
+
+    .start__p {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+
+    .start__buttons {
+        flex-direction: column;
     }
 
     .foot__columns {
