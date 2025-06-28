@@ -1398,9 +1398,10 @@ header .row {
     .start__buttons {
         flex-direction: column;
     }
-
+    
     .start__button1 {
         margin-left: 32px;
+        margin-bottom: 20px;
     }
 
     .start__button2 {
