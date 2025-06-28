@@ -1399,6 +1399,15 @@ header .row {
         flex-direction: column;
     }
 
+    .start__button1 {
+        margin-left: 32px;
+    }
+
+    .start__button2 {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
     .foot__columns {
         justify-content: center;
     }
