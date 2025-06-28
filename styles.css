@@ -1366,9 +1366,9 @@ header .row {
     }
 
     .header__email--input {
-        position: static;
         padding: 16px 0;
         padding-left: 32px;
+        position: none;
     }
 
     .header__email--btn {
@@ -1376,6 +1376,7 @@ header .row {
         padding: 16px 0;
         margin: 16px 0;
         margin-bottom: 0px;
+        position: none;
     }
 
     .header__customers--title {
